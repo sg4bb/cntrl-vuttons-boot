@@ -1,0 +1,3 @@
+[submodule "cntrl-vuttons"]
+	path = cntrl-vuttons
+	url = https://github.com/sg4bb/cntrl-vuttons.git

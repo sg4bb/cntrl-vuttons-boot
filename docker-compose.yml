@@ -1,0 +1,14 @@
+version: '1.0'
+
+services:
+  cntrl_vuttons:
+    image: cntrlvutton-dev
+    container_name: Cntrl_Vuttons
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cntrl-vuttons:/app
+      - /app/node_modules
+    ports:
+      - 3090:3090
